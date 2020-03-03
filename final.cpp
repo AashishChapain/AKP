@@ -456,27 +456,44 @@ void history()
 void help()
 {
 	system("cls");
+
+	gotoxy(90, 20);
 	cout << "~~~~~~~HELP~~~~~~~~~~~~ " << endl;
 	cout << "\n";
+	gotoxy(60, 25);
 	cout << "1. The sender should be executed first followed by the receiver " << endl;
+	gotoxy(60, 26);
 	cout << "2. The files to be sent have to be saved in the same folder as that of 'main.cpp'." << endl;
+	gotoxy(60, 27);
 	cout << "3. For any further problems or queries, you can contact us to email : kapildaiorganization2014@gmail.com " << endl;
+	gotoxy(60, 28);
+	cout << "press any key to go the main menu"<<endl;
 	getch();
 	back();
 }
 void about()
 {
 	system("cls");
-	cout << "~~~~~~ABOUT~~~~~~~~~~~~~~~" << endl;
-	cout << "\n";
+	gotoxy(90, 20);
+	cout << "~~ABOUT~~~" << endl;
+	gotoxy(60, 25);
 	cout << "This is an open source program created by THE KAPIL DAI GANG for the 3rd semestar OOP Project.  " << endl;
+	gotoxy(60, 26);
 	cout << "You can update the code and make your changes and code can be found online in 'https://github.com/Kapil-DAI-GANG/AKP'" << endl;
+	gotoxy(60, 27);
 	cout << "TEAM MEMBERS:" << endl;
-	cout << "1. Ashok Budha " << "\t\t" << "THA075BCT013" << endl;
-	cout << "2. Aashish Chapain " << "\t" << "THA075BCT002" << endl;
-	cout << "3. Bibek Khanal " << "\t" << "THA075BCT016" << endl;
-	cout << "4. Kapil Shrestha " << "\t" << "THA075BCT022" << endl;
+	gotoxy(60, 28);
+	cout << "1. Ashok Budha     \t THA075BCT013" << endl;
+	gotoxy(60, 29);
+	cout << "2. Aashish Chapain \t THA075BCT002" << endl;
+	gotoxy(60, 30);
+	cout << "3. Bibek Khanal    \t THA075BCT016" << endl;
+	gotoxy(60, 31);
+	cout << "4. Kapil Shrestha  \t THA075BCT022" << endl;
+	gotoxy(60, 32);
 	cout << "ALL RIGHTS RESERVED ..." << endl;
+	gotoxy(60, 33);
+	cout << "press any key to go to the main menu" << endl;
 	getch();
 	back();
 }
